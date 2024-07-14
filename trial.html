@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('DAYA PIC.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid #5c00b3;
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h2 {
+            color: #5c00b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container label {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"],
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .container input[type="submit"] {
+            background-color: #5c00b3;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container input[type="submit"]:hover {
+            background-color: #4d0080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Registration Form</h2>
+            <label for="nm">Name:</label>
+            <input type="text" placeholder="Enter your name" name="nm">
+            <label for="pw">Password:</label>
+            <input type="password" placeholder="Enter your password" name="pw">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
